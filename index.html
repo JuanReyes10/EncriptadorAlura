@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="challenge.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+        <title>Encriptador Alura</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h1><img src="../CHALLENGE - ALURA/Logo.png" alt="logo"></h1>
+            </div>
+        </header>
+        <main>
+            <section class="seccion-1">
+                <div class="contenedor-caja-texto">
+                    <textarea placeholder="Ingrese el texto aqui" class="caja-texto" required></textarea>
+                </div>
+                <div class="logo-alerta">
+                    <img src="../CHALLENGE - ALURA/Vector.png" alt="alerta">
+                    <p>solo letras minusculas y sin acentos</p>
+                </div>
+                <div class="contenedor-botones">
+                    <label for="boton-encriptador"></label>
+                    <input type="button" class="btn-encriptar" value="Encriptar" id="boton-encriptador">
+                    <label for="boton-desencriptador"></label>
+                    <input type="button" class="btn-desencriptar" value="Desencriptar" id="boton-desencriptador">
+                </div>
+            </section>
+            <section class="seccion-2">
+                <div class="contenedor-munheco">
+                    <img src="../CHALLENGE - ALURA/Muñeco.png" alt="muñeco">
+                </div>
+                <div class="contenedor-parrafo">
+                    <h3>Ningun mensaje fue <br> encontrado</h3>
+                    <p>Ingrese el texto que desees encriptar o <br> desencriptar</p>
+                </div>
+                <div class="boton-copiar">
+                    <label for="boton-encriptador"></label>
+                    <input type="button" class="btn-copiar" value="copiar" id="boton-copiar">
+                </div>
+                <div class="contenedor-resultado">
+                    <p class="texto-resultado"></p>
+                </div>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
